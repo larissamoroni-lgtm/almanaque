@@ -572,7 +572,7 @@ class _Dossier04ScreenState extends State<Dossier04Screen> {
                           size: 18,
                         ),
                         label: const Text(
-                          'INICIAR DESAFIO DO DOSSIÊ 03',
+                          'INICIAR DESAFIO DO DOSSIÊ 04',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontFamily: 'Courier',
