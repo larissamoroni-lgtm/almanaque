@@ -22,62 +22,62 @@ class _Dossier02ScreenState extends State<Dossier02Screen> {
     super.initState();
 
     _documents = [
-      {
-        'section': 'PARTE I: REFORMAS POMBALINAS',
-        'docNumber': 'DOC. 02/A',
-        'title': '1. As Aulas Régias (1760 – 1774)',
-        'content':
-            '• 1760 — Reformas Pombalinas: Implementação das Aulas Régias e do Estudo das Humanidades[cite: 4].\n\n'
-            '• 1772: Liberação do Subsídio Literário para financiamento das aulas[cite: 4].\n\n'
-            '• 1774: Início das primeiras aulas de Filosofia, Língua Nacional e Moral[cite: 4].',
-      },
-      {
-        'section': 'PARTE I: EXPANSÃO ESCOLAR',
-        'docNumber': 'DOC. 02/B',
-        'title': '2. Primeiras Escolas e Instrução (1827)',
-        'content':
-            '• 1827 — Criação das primeiras escolas em locais mais populosos[cite: 4].\n\n'
-            '• Organização do Trabalho: Definição clara de jornada de trabalho e salário justo para os mestres[cite: 4].\n\n'
-            '• Monitores: Introdução de monitores para auxiliar os professores no ensino[cite: 4].\n\n'
-            '• Inclusão de Gênero: Ensino aberto para meninos e meninas (embora com carga reduzida em Matemática para as meninas)[cite: 4].',
-      },
-      {
-        'section': 'PARTE II: IMPÉRIO & SEGUNDA METADE DO SÉC. XIX',
-        'docNumber': 'DOC. 02/C',
-        'title': '3. Colégio de Pedro II e Reformas de Ensino',
-        'content':
-            '• 1837 — Criação do Colégio de Pedro II: Instituição de referência com número mínimo de funcionários[cite: 4]. Currículo com Química, Filosofia, Grego, Latim, etc[cite: 4].\n\n'
-            '• 1854 — Reforma de Ensino (1º e 2º Graus): Estabelecimento de condições para o magistério público e regulamentação do que deve ser ensinado[cite: 4].',
-      },
-      {
-        'section': 'PARTE II: REPÚBLICA E REFORMA BENJAMIN CONSTANT',
-        'docNumber': 'DOC. 02/D',
-        'title': '4. Experiência Pedagógica e Método Intuitivo (1889)',
-        'content':
-            '• 1889 — 1ª Experiência Pedagógica no RJ: Promulgada pelo Decreto nº 7.247[cite: 4].\n\n'
-            '• Protagonistas: Rui Barbosa e a introdução do Método Intuitivo (lições de coisas)[cite: 4].',
-      },
-      {
-        'section': 'PARTE III: ESTRUTURAÇÃO DA ESCOLA PRIMÁRIA',
-        'docNumber': 'DOC. 02/E',
-        'title': '5. Políticas Públicas na Educação (27.08)',
-        'content':
-            '• Divisão da Escola Primária: Organizada em 1º e 2º graus e dividida em 3 cursos (Elementar, Médio e Superior/Gradual)[cite: 4].\n\n'
-            '• Método Intuitivo: Equilíbrio prático e teórico entre a teoria e a prática[cite: 4].\n\n'
-            '• Normas de Turma: 1º grau com limite máximo de 30 alunos por sala (devendo contratar mais professores caso exceda)[cite: 4].\n\n'
-            '• Diretrizes: Ensino gratuito e livre para todos[cite: 4]. Estrutura física prevê biblioteca, museu, ginásio, pátio e jardim[cite: 4].',
-      },
-      {
-        'section': 'PARTE III: FORMAÇÃO DOCENTE E INOVAÇÃO',
-        'docNumber': 'DOC. 02/F',
-        'title': '6. Escola Normal e Pedagogium',
-        'content':
-            '• Escola Normal: Focada na formação de professores para o ensino primário[cite: 4].\n\n'
-            '• Carreira Docente: Professor Primário Titular (contrato de 5 anos via concurso público)[cite: 4] e Professor Adjunto/Auxiliar (3 anos de atuação)[cite: 4].\n\n'
-            '• Pedagogium: Centro de inovação e atualização tecnológica para docentes que já atuam na rede pública[cite: 4].\n\n'
-            '• Ensino Secundário Integral: Mantido via impostos públicos[cite: 4], com gratificação e melhoria salarial de acordo com o trabalho prestado (Título VIII, Art. 62)[cite: 4].',
-      },
-    ];
+  {
+    'section': 'PARTE I: REFORMAS POMBALINAS',
+    'docNumber': 'DOC. 02/A',
+    'title': '1. As Aulas Régias (1760 – 1774)',
+    'content':
+        '• 1760 — Reformas Pombalinas: Implementação das Aulas Régias e do Estudo das Humanidades.\n\n'
+        '• 1772: Liberação do Subsídio Literário para financiamento das aulas.\n\n'
+        '• 1774: Início das primeiras aulas de Filosofia, Língua Nacional e Moral.',
+  },
+  {
+    'section': 'PARTE I: EXPANSÃO ESCOLAR',
+    'docNumber': 'DOC. 02/B',
+    'title': '2. Primeiras Escolas e Instrução (1827)',
+    'content':
+        '• 1827 — Criação das primeiras escolas em locais mais populosos.\n\n'
+        '• Organização do Trabalho: Definição clara de jornada de trabalho e salário justo para os mestres.\n\n'
+        '• Monitores: Introdução de monitores para auxiliar os professores no ensino.\n\n'
+        '• Inclusão de Gênero: Ensino aberto para meninos e meninas (embora com carga reduzida em Matemática para as meninas).',
+  },
+  {
+    'section': 'PARTE II: IMPÉRIO & SEGUNDA METADE DO SÉC. XIX',
+    'docNumber': 'DOC. 02/C',
+    'title': '3. Colégio de Pedro II e Reformas de Ensino',
+    'content':
+        '• 1837 — Criação do Colégio de Pedro II: Instituição de referência com número mínimo de funcionários. Currículo com Química, Filosofia, Grego, Latim, etc.\n\n'
+        '• 1854 — Reforma de Ensino (1º e 2º Graus): Estabelecimento de condições para o magistério público e regulamentação do que deve ser ensinado.',
+  },
+  {
+    'section': 'PARTE II: REPÚBLICA E REFORMA BENJAMIN CONSTANT',
+    'docNumber': 'DOC. 02/D',
+    'title': '4. Experiência Pedagógica e Método Intuitivo (1889)',
+    'content':
+        '• 1889 — 1ª Experiência Pedagógica no RJ: Promulgada pelo Decreto nº 7.247.\n\n'
+        '• Protagonistas: Rui Barbosa e a introdução do Método Intuitivo (lições de coisas).',
+  },
+  {
+    'section': 'PARTE III: ESTRUTURAÇÃO DA ESCOLA PRIMÁRIA',
+    'docNumber': 'DOC. 02/E',
+    'title': '5. Políticas Públicas na Educação (27.08)',
+    'content':
+        '• Divisão da Escola Primária: Organizada em 1º e 2º graus e dividida em 3 cursos (Elementar, Médio e Superior/Gradual).\n\n'
+        '• Método Intuitivo: Equilíbrio prático e teórico entre a teoria e a prática.\n\n'
+        '• Normas de Turma: 1º grau com limite máximo de 30 alunos por sala (devendo contratar mais professores caso exceda).\n\n'
+        '• Diretrizes: Ensino gratuito e livre para todos. Estrutura física prevê biblioteca, museu, ginásio, pátio e jardim.',
+  },
+  {
+    'section': 'PARTE III: FORMAÇÃO DOCENTE E INOVAÇÃO',
+    'docNumber': 'DOC. 02/F',
+    'title': '6. Escola Normal e Pedagogium',
+    'content':
+        '• Escola Normal: Focada na formação de professores para o ensino primário.\n\n'
+        '• Carreira Docente: Professor Primário Titular (contrato de 5 anos via concurso público) e Professor Adjunto/Auxiliar (3 anos de atuação).\n\n'
+        '• Pedagogium: Centro de inovação e atualização tecnológica para docentes que já atuam na rede pública.\n\n'
+        '• Ensino Secundário Integral: Mantido via impostos públicos, com gratificação e melhoria salarial de acordo com o trabalho prestado (Título VIII, Art. 62).',
+  },
+];
   }
 
   void _navigateToChallenge() {

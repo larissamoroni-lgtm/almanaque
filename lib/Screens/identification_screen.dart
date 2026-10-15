@@ -251,8 +251,11 @@ void _submitForm() {
         ),
         const SizedBox(height: 4),
         TextFormField(
-          controller: controller,
-          style: const TextStyle(
+  controller: controller,
+  readOnly: true,
+  enableInteractiveSelection: false,
+  showCursor: false,
+  style: const TextStyle(
             fontFamily: 'Courier',
             fontSize: 14,
             fontWeight: FontWeight.bold,
